@@ -8,11 +8,11 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="css/adminlte.min.css">
+  <link rel="stylesheet" href="/css/adminlte.min.css">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <!-- Site wrapper -->
@@ -67,7 +67,8 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="../../index3.html" class="brand-link">
-      <img src="img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+        {{-- <img src="/AdminLTE-3.2.0/dist/img/avatar.png" alt=""> --}}
+      <img src="/AdminLTE-3.2.0/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">VCam</span>
     </a>
 
@@ -76,7 +77,7 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Alexander Pierce</a>
@@ -89,8 +90,7 @@
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-          <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
+          <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -107,12 +107,6 @@
               </p>
             </a>
           </li>
-
-
-
-
-
-
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -135,7 +129,6 @@
 
     <!-- Main content -->
     <section class="content">
-
         <div class="row">
             <div class="col-md-4">
                 <!-- Widget: user widget style 1 -->
@@ -147,7 +140,7 @@
                             <h5 class="widget-user-desc">72190299</h5>
                         </div>
                         <div class="widget-user-image">
-                            <img class="img-circle elevation-2" src="img/user1-128x128.jpg" alt="User Avatar">
+                            <img class="img-circle elevation-2" src="/img/user1-128x128.jpg" alt="User Avatar">
                         </div>
                         <div class="card-footer">
                             <div class="row">
@@ -181,9 +174,97 @@
                     </div>
                 </a>
                 <!-- /.widget-user -->
-              </div>
-
-          </div>
+            </div>
+            <div class="col-md-4">
+                <!-- Widget: user widget style 1 -->
+                <a href="/akademikMhs">
+                    <div class="card card-widget widget-user">
+                        <!-- Add the bg color to the header using any of the bg-* classes -->
+                        <div class="widget-user-header bg-info">
+                            <h3 class="widget-user-username">Yanita Prasetya Nugraha</h3>
+                            <h5 class="widget-user-desc">72190299</h5>
+                        </div>
+                        <div class="widget-user-image">
+                            <img class="img-circle elevation-2" src="/img/user1-128x128.jpg" alt="User Avatar">
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-sm-4 border-right">
+                                    <div class="description-block">
+                                    <h5 class="description-header">3,61</h5>
+                                    <span class="description-text">IPS</span>
+                                    </div>
+                                    <!-- /.description-block -->
+                                </div>
+                                <!-- /.col -->
+                                <div class="col-sm-4 border-right">
+                                    <div class="description-block">
+                                    <h5 class="description-header">3.61</h5>
+                                    <span class="description-text">IPK</span>
+                                    </div>
+                                    <!-- /.description-block -->
+                                </div>
+                                <!-- /.col -->
+                                <div class="col-sm-4">
+                                    <div class="description-block">
+                                        <h5 class="description-header">10</h5>
+                                        <span class="description-text">SEMESTER</span>
+                                    </div>
+                                    <!-- /.description-block -->
+                                </div>
+                            <!-- /.col -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                    </div>
+                </a>
+                <!-- /.widget-user -->
+            </div><div class="col-md-4">
+                <!-- Widget: user widget style 1 -->
+                <a href="/akademikMhs">
+                    <div class="card card-widget widget-user">
+                        <!-- Add the bg color to the header using any of the bg-* classes -->
+                        <div class="widget-user-header bg-info">
+                            <h3 class="widget-user-username">Yanita Prasetya Nugraha</h3>
+                            <h5 class="widget-user-desc">72190299</h5>
+                        </div>
+                        <div class="widget-user-image">
+                            <img class="img-circle elevation-2" src="/img/user1-128x128.jpg" alt="User Avatar">
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-sm-4 border-right">
+                                    <div class="description-block">
+                                    <h5 class="description-header">3,61</h5>
+                                    <span class="description-text">IPS</span>
+                                    </div>
+                                    <!-- /.description-block -->
+                                </div>
+                                <!-- /.col -->
+                                <div class="col-sm-4 border-right">
+                                    <div class="description-block">
+                                    <h5 class="description-header">3.61</h5>
+                                    <span class="description-text">IPK</span>
+                                    </div>
+                                    <!-- /.description-block -->
+                                </div>
+                                <!-- /.col -->
+                                <div class="col-sm-4">
+                                    <div class="description-block">
+                                        <h5 class="description-header">10</h5>
+                                        <span class="description-text">SEMESTER</span>
+                                    </div>
+                                    <!-- /.description-block -->
+                                </div>
+                            <!-- /.col -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                    </div>
+                </a>
+                <!-- /.widget-user -->
+            </div>
+        </div>
 
         {{-- <div class="container-fluid">
           <div class="row">
@@ -215,27 +296,27 @@
             </div>
           </div>
         </div> --}}
-      </section>
+    </section>
 
-  <!-- /.content-wrapper -->
+<!-- /.content-wrapper -->
 
 
 
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
+<!-- Control Sidebar -->
+<aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
-  </aside>
-  <!-- /.control-sidebar -->
+</aside>
+<!-- /.control-sidebar -->
 </div>
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
+<script src="/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- overlayScrollbars -->
-<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<script src="/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
-<script src="js/adminlte.min.js"></script>
+<script src="/js/adminlte.min.js"></script>
 </body>
 </html>
