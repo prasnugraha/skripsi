@@ -58,7 +58,7 @@
         <a class="nav-link" data-toggle="dropdown" href="#">
           <i class="far fa-comments"></i>
         </a>
-      </li>   
+      </li>
     </ul>
   </nav>
   <!-- /.navbar -->
@@ -83,8 +83,8 @@
         </div>
       </div>
 
-  
-   
+
+
 
       <!-- Sidebar Menu -->
       <nav class="mt-2">
@@ -107,12 +107,12 @@
               </p>
             </a>
           </li>
-          
-    
 
 
 
-       
+
+
+
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -139,46 +139,47 @@
         <div class="row">
             <div class="col-md-4">
                 <!-- Widget: user widget style 1 -->
-                <a href="/akademikMhs"><div class="card card-widget widget-user">
-                  <!-- Add the bg color to the header using any of the bg-* classes -->
-                  <div class="widget-user-header bg-info">
-                    <h3 class="widget-user-username">Yanita Prasetya Nugraha</h3>
-                    <h5 class="widget-user-desc">72190299</h5>
-                  </div>
-                  <div class="widget-user-image">
-                    <img class="img-circle elevation-2" src="img/user1-128x128.jpg" alt="User Avatar">
-                  </div>
-                  <div class="card-footer">
-                    <div class="row">
-                      <div class="col-sm-4 border-right">
-                        <div class="description-block">
-                          <h5 class="description-header">3,61</h5>
-                          <span class="description-text">IPS</span>
+                <a href="/akademikMhs">
+                    <div class="card card-widget widget-user">
+                        <!-- Add the bg color to the header using any of the bg-* classes -->
+                        <div class="widget-user-header bg-info">
+                            <h3 class="widget-user-username">Yanita Prasetya Nugraha</h3>
+                            <h5 class="widget-user-desc">72190299</h5>
                         </div>
-                        <!-- /.description-block -->
-                      </div>
-                      <!-- /.col -->
-                      <div class="col-sm-4 border-right">
-                        <div class="description-block">
-                          <h5 class="description-header">3.61</h5>
-                          <span class="description-text">IPK</span>
+                        <div class="widget-user-image">
+                            <img class="img-circle elevation-2" src="img/user1-128x128.jpg" alt="User Avatar">
                         </div>
-                        <!-- /.description-block -->
-                      </div>
-                      <!-- /.col -->
-                      <div class="col-sm-4">
-                        <div class="description-block">
-                          <h5 class="description-header">10</h5>
-                          <span class="description-text">SEMESTER</span>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-sm-4 border-right">
+                                    <div class="description-block">
+                                    <h5 class="description-header">3,61</h5>
+                                    <span class="description-text">IPS</span>
+                                    </div>
+                                    <!-- /.description-block -->
+                                </div>
+                                <!-- /.col -->
+                                <div class="col-sm-4 border-right">
+                                    <div class="description-block">
+                                    <h5 class="description-header">3.61</h5>
+                                    <span class="description-text">IPK</span>
+                                    </div>
+                                    <!-- /.description-block -->
+                                </div>
+                                <!-- /.col -->
+                                <div class="col-sm-4">
+                                    <div class="description-block">
+                                        <h5 class="description-header">10</h5>
+                                        <span class="description-text">SEMESTER</span>
+                                    </div>
+                                    <!-- /.description-block -->
+                                </div>
+                            <!-- /.col -->
+                            </div>
+                            <!-- /.row -->
                         </div>
-                        <!-- /.description-block -->
-                      </div>
-                      <!-- /.col -->
                     </div>
-                    <!-- /.row -->
-                  </div>
-                </div> 
-            </a>
+                </a>
                 <!-- /.widget-user -->
               </div>
 
@@ -191,7 +192,7 @@
               <div class="card">
                 <div class="card-header">
                   <h3 class="card-title">Title</h3>
-  
+
                   <div class="card-tools">
                     <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
                       <i class="fas fa-minus"></i>
@@ -215,7 +216,7 @@
           </div>
         </div> --}}
       </section>
-  
+
   <!-- /.content-wrapper -->
 
 
