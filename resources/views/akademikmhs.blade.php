@@ -135,84 +135,22 @@
 
     <!-- Main content -->
     <section class="content">
+      <div class="row">
+        <div class="col-md-6">
+      <div class="card card-primary">
+        <div class="card-header">
+          <h3 class="card-title">Area Chart</h3>
 
-        <div class="row">
-            <div class="col-md-4">
-                <!-- Widget: user widget style 1 -->
-                <div class="card card-widget widget-user">
-                  <!-- Add the bg color to the header using any of the bg-* classes -->
-                  <div class="widget-user-header bg-info">
-                    <h3 class="widget-user-username">Yanita Prasetya Nugraha</h3>
-                    <h5 class="widget-user-desc">72190299</h5>
-                  </div>
-                  <div class="widget-user-image">
-                    <img class="img-circle elevation-2" src="img/user1-128x128.jpg" alt="User Avatar">
-                  </div>
-                  <div class="card-footer">
-                    <div class="row">
-                      <div class="col-sm-4 border-right">
-                        <div class="description-block">
-                          <h5 class="description-header">3,61</h5>
-                          <span class="description-text">IPS</span>
-                        </div>
-                        <!-- /.description-block -->
-                      </div>
-                      <!-- /.col -->
-                      <div class="col-sm-4 border-right">
-                        <div class="description-block">
-                          <h5 class="description-header">3.61</h5>
-                          <span class="description-text">IPK</span>
-                        </div>
-                        <!-- /.description-block -->
-                      </div>
-                      <!-- /.col -->
-                      <div class="col-sm-4">
-                        <div class="description-block">
-                          <h5 class="description-header">10</h5>
-                          <span class="description-text">SEMESTER</span>
-                        </div>
-                        <!-- /.description-block -->
-                      </div>
-                      <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
-                  </div>
-                </div>
-                <!-- /.widget-user -->
-              </div>
-
+        </div>
+        <div class="card-body">
+          <div class="chart">
+            <canvas id="areaChart" style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
           </div>
-
-        {{-- <div class="container-fluid">
-          <div class="row">
-            <div class="col-12">
-              <!-- Default box -->
-              <div class="card">
-                <div class="card-header">
-                  <h3 class="card-title">Title</h3>
-  
-                  <div class="card-tools">
-                    <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                      <i class="fas fa-minus"></i>
-                    </button>
-                    <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-                      <i class="fas fa-times"></i>
-                    </button>
-                  </div>
-                </div>
-                <div class="card-body">
-                  Start creating your amazing application!
-                </div>
-                <!-- /.card-body -->
-                <div class="card-footer">
-                  Footer
-                </div>
-                <!-- /.card-footer-->
-              </div>
-              <!-- /.card -->
-            </div>
-          </div>
-        </div> --}}
+        </div>
+        <!-- /.card-body -->
+      </div>
+        </div>
+      </div>
       </section>
   
   <!-- /.content-wrapper -->

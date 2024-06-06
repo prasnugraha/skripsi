@@ -139,7 +139,7 @@
         <div class="row">
             <div class="col-md-4">
                 <!-- Widget: user widget style 1 -->
-                <div class="card card-widget widget-user">
+                <a href="/akademikMhs"><div class="card card-widget widget-user">
                   <!-- Add the bg color to the header using any of the bg-* classes -->
                   <div class="widget-user-header bg-info">
                     <h3 class="widget-user-username">Yanita Prasetya Nugraha</h3>
@@ -177,7 +177,8 @@
                     </div>
                     <!-- /.row -->
                   </div>
-                </div>
+                </div> 
+            </a>
                 <!-- /.widget-user -->
               </div>
 

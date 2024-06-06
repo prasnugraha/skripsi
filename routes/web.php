@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/dakademik', function () {
     return view('dashboardAkademik');
 });
+
+Route::get('/akademikMhs', function () {
+    return view('akademikmhs');
+});
