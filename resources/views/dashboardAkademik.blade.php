@@ -130,14 +130,15 @@
     <!-- Main content -->
     <section class="content">
         <div class="row">
+            @foreach ($data  as $mhs )
             <div class="col-md-4">
                 <!-- Widget: user widget style 1 -->
                 <a href="/akademikMhs">
                     <div class="card card-widget widget-user">
                         <!-- Add the bg color to the header using any of the bg-* classes -->
                         <div class="widget-user-header bg-info">
-                            <h3 class="widget-user-username">Yanita Prasetya Nugraha</h3>
-                            <h5 class="widget-user-desc">72190299</h5>
+                            <h3 class="widget-user-username">{{ $mhs->namaMahasiswa }}</h3>
+                            <h5 class="widget-user-desc">{{ $mhs->nim }}</h5>
                         </div>
                         <div class="widget-user-image">
                             <img class="img-circle elevation-2" src="/img/user1-128x128.jpg" alt="User Avatar">
@@ -146,7 +147,7 @@
                             <div class="row">
                                 <div class="col-sm-4 border-right">
                                     <div class="description-block">
-                                    <h5 class="description-header">3,61</h5>
+                                    <h5 class="description-header">{{ $mhs->ips }}</h5>
                                     <span class="description-text">IPS</span>
                                     </div>
                                     <!-- /.description-block -->
@@ -154,7 +155,7 @@
                                 <!-- /.col -->
                                 <div class="col-sm-4 border-right">
                                     <div class="description-block">
-                                    <h5 class="description-header">3.61</h5>
+                                    <h5 class="description-header">{{ $mhs->ipk }}</h5>
                                     <span class="description-text">IPK</span>
                                     </div>
                                     <!-- /.description-block -->
@@ -162,7 +163,7 @@
                                 <!-- /.col -->
                                 <div class="col-sm-4">
                                     <div class="description-block">
-                                        <h5 class="description-header">10</h5>
+                                        <h5 class="description-header">{{ $mhs->semester }}</h5>
                                         <span class="description-text">SEMESTER</span>
                                     </div>
                                     <!-- /.description-block -->
@@ -175,95 +176,7 @@
                 </a>
                 <!-- /.widget-user -->
             </div>
-            <div class="col-md-4">
-                <!-- Widget: user widget style 1 -->
-                <a href="/akademikMhs">
-                    <div class="card card-widget widget-user">
-                        <!-- Add the bg color to the header using any of the bg-* classes -->
-                        <div class="widget-user-header bg-info">
-                            <h3 class="widget-user-username">Yanita Prasetya Nugraha</h3>
-                            <h5 class="widget-user-desc">72190299</h5>
-                        </div>
-                        <div class="widget-user-image">
-                            <img class="img-circle elevation-2" src="/img/user1-128x128.jpg" alt="User Avatar">
-                        </div>
-                        <div class="card-footer">
-                            <div class="row">
-                                <div class="col-sm-4 border-right">
-                                    <div class="description-block">
-                                    <h5 class="description-header">3,61</h5>
-                                    <span class="description-text">IPS</span>
-                                    </div>
-                                    <!-- /.description-block -->
-                                </div>
-                                <!-- /.col -->
-                                <div class="col-sm-4 border-right">
-                                    <div class="description-block">
-                                    <h5 class="description-header">3.61</h5>
-                                    <span class="description-text">IPK</span>
-                                    </div>
-                                    <!-- /.description-block -->
-                                </div>
-                                <!-- /.col -->
-                                <div class="col-sm-4">
-                                    <div class="description-block">
-                                        <h5 class="description-header">10</h5>
-                                        <span class="description-text">SEMESTER</span>
-                                    </div>
-                                    <!-- /.description-block -->
-                                </div>
-                            <!-- /.col -->
-                            </div>
-                            <!-- /.row -->
-                        </div>
-                    </div>
-                </a>
-                <!-- /.widget-user -->
-            </div><div class="col-md-4">
-                <!-- Widget: user widget style 1 -->
-                <a href="/akademikMhs">
-                    <div class="card card-widget widget-user">
-                        <!-- Add the bg color to the header using any of the bg-* classes -->
-                        <div class="widget-user-header bg-info">
-                            <h3 class="widget-user-username">Yanita Prasetya Nugraha</h3>
-                            <h5 class="widget-user-desc">72190299</h5>
-                        </div>
-                        <div class="widget-user-image">
-                            <img class="img-circle elevation-2" src="/img/user1-128x128.jpg" alt="User Avatar">
-                        </div>
-                        <div class="card-footer">
-                            <div class="row">
-                                <div class="col-sm-4 border-right">
-                                    <div class="description-block">
-                                    <h5 class="description-header">3,61</h5>
-                                    <span class="description-text">IPS</span>
-                                    </div>
-                                    <!-- /.description-block -->
-                                </div>
-                                <!-- /.col -->
-                                <div class="col-sm-4 border-right">
-                                    <div class="description-block">
-                                    <h5 class="description-header">3.61</h5>
-                                    <span class="description-text">IPK</span>
-                                    </div>
-                                    <!-- /.description-block -->
-                                </div>
-                                <!-- /.col -->
-                                <div class="col-sm-4">
-                                    <div class="description-block">
-                                        <h5 class="description-header">10</h5>
-                                        <span class="description-text">SEMESTER</span>
-                                    </div>
-                                    <!-- /.description-block -->
-                                </div>
-                            <!-- /.col -->
-                            </div>
-                            <!-- /.row -->
-                        </div>
-                    </div>
-                </a>
-                <!-- /.widget-user -->
-            </div>
+            @endforeach
         </div>
 
         {{-- <div class="container-fluid">
