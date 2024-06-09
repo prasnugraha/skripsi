@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DosenController;
+use App\Http\Controllers\AkademikMhs;
 
 Route::get('/', function () {
     return view('dashboardAkademik');
@@ -15,4 +16,5 @@ Route::get('/akademikMhs', function () {
     return view('akademikmhs');
 });
 
+Route::get('/dosen/akademikMhs', [AkademikMhs::class, 'index'])->name('akademikmhs');
 Route::get('/dosen/dashboard', [DosenController::class, 'dashboard'])->name('dosen');
