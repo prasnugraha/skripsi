@@ -16,5 +16,5 @@ Route::get('/akademikMhs', function () {
     return view('akademikmhs');
 });
 
-Route::get('/dosen/akademikMhs', [AkademikMhs::class, 'index'])->name('akademikmhs');
+Route::get('/dosen/akademikMhs/{id}', [AkademikMhs::class, 'show'])->name('akademikmhs');
 Route::get('/dosen/dashboard', [DosenController::class, 'dashboard'])->name('dosen');

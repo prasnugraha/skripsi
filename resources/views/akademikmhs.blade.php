@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        @foreach($data as $namaMahasiswa => $nilaiHuruf)
+        @foreach($data as $namaMahasiswa => $nilai)
             <div class="card mb-4">
                 <div class="card-header">
                     <h5 class="card-title">{{ $namaMahasiswa }}</h5>
@@ -19,10 +19,10 @@
                         var chart = new Chart(ctx, {
                             type: 'bar',
                             data: {
-                                labels: @json(array_keys($nilaiHuruf)),
+                                labels: @json(array_keys($nilai)),
                                 datasets: [{
-                                    label: 'Jumlah Nilai',
-                                    data: @json(array_map('count', $nilaiHuruf)),
+                                    label: 'Jumlah Mahasiswa',
+                                    data: @json(array_map('count', $nilai)),
                                     backgroundColor: 'rgba(75, 192, 192, 0.2)',
                                     borderColor: 'rgba(75, 192, 192, 1)',
                                     borderWidth: 1

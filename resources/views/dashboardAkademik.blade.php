@@ -133,7 +133,7 @@
             @foreach ($data  as $mhs )
             <div class="col-md-4">
                 <!-- Widget: user widget style 1 -->
-                <a href="/akademikMhs">
+                <a href="/dosen/akademikMhs/{{ $mhs->idMahasiswa }}">
                     <div class="card card-widget widget-user">
                         <!-- Add the bg color to the header using any of the bg-* classes -->
                         <div class="widget-user-header bg-info">
