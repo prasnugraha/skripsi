@@ -11,8 +11,8 @@ Route::get('/', function () {
 //     return view('dashboardAkademik');
 // });
 
-// Route::get('/akademikMhs', function () {
-//     return view('akademikmhs');
-// });
+Route::get('/akademikMhs', function () {
+    return view('akademikmhs');
+});
 
 Route::get('/dosen/dashboard', [DosenController::class, 'dashboard'])->name('dosen');

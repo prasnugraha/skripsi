@@ -147,7 +147,7 @@
                             <div class="row">
                                 <div class="col-sm-4 border-right">
                                     <div class="description-block">
-                                    <h5 class="description-header">{{ $mhs->ips }}</h5>
+                                    <h5 class="description-header">{{ number_format($mhs->IPS, 2) }}</h5>
                                     <span class="description-text">IPS</span>
                                     </div>
                                     <!-- /.description-block -->
@@ -155,7 +155,7 @@
                                 <!-- /.col -->
                                 <div class="col-sm-4 border-right">
                                     <div class="description-block">
-                                    <h5 class="description-header">{{ $mhs->ipk }}</h5>
+                                    <h5 class="description-header">{{ number_format($mhs->IPK, 2) }}</h5>
                                     <span class="description-text">IPK</span>
                                     </div>
                                     <!-- /.description-block -->
@@ -163,7 +163,7 @@
                                 <!-- /.col -->
                                 <div class="col-sm-4">
                                     <div class="description-block">
-                                        <h5 class="description-header">{{ $mhs->semester }}</h5>
+                                        <h5 class="description-header">{{ $mhs->MaxSemester }}</h5>
                                         <span class="description-text">SEMESTER</span>
                                     </div>
                                     <!-- /.description-block -->
