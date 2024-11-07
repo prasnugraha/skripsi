@@ -24,8 +24,8 @@
       <li class="nav-item">
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="../../index3.html" class="nav-link">Home</a>
+      <li class="nav-item flex">
+        <a href="../../index3.html" class="nav-link text-md-left">Dashboard</a>
       </li>
     </ul>
 
@@ -54,11 +54,11 @@
       </li>
 
       <!-- Messages Dropdown Menu -->
-      <li class="nav-item dropdown">
+      {{-- <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
           <i class="far fa-comments"></i>
         </a>
-      </li>
+      </li> --}}
     </ul>
   </nav>
   <!-- /.navbar -->
@@ -92,7 +92,7 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="dashboard" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -120,8 +120,8 @@
     <section class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1>Mahasiswa</h1>
+          <div class="col-sm-8">
+            <h1>Daftar Mahasiswa</h1>
           </div>
         </div>
       </div><!-- /.container-fluid -->
@@ -130,7 +130,7 @@
     <!-- Main content -->
     <section class="content">
         <div class="row">
-            @foreach ($data  as $mhs )
+            @foreach ($data as $mhs)
             <div class="col-md-4">
                 <!-- Widget: user widget style 1 -->
                 <a href="/dosen/akademikMhs/{{ $mhs->idMahasiswa }}">
@@ -208,8 +208,8 @@
               <!-- /.card -->
             </div>
           </div>
-        </div> --}}
-    </section>
+        </div> --}} 
+    </section> 
 
 <!-- /.content-wrapper -->
 

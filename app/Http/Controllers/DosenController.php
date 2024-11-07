@@ -23,10 +23,10 @@ class DosenController extends Controller
         ->select('Mahasiswa.idMahasiswa', 'Mahasiswa.namaMahasiswa', 'Mahasiswa.nim', 'A1.MaxSemester', 'A2.IPS', 'A3.IPK')
         ->get();
 
-        // dd($data);
+         // dd($data);
 
         return view('dashboardAkademik', ['data' => $data]);
     }
 
-    //
+
 }
